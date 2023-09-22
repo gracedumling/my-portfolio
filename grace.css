@@ -108,12 +108,12 @@ ewan h1, h2, h3, p, ul, li, a {
 	
 	color: white;
 	
-	animation: flip; 
-	animation-duration: 5s;
+	animation: heartBeat; /* referring directly to the animation's @keyframe declaration */
+	animation-duration: 5s; /* don't forget to set a duration! */
 	animation-iteration-count: infinite;
 }
 
-@keyframes animate__animated.animate__flip {
+@keyframes animate__animated.animate__ heartBeat {
   --animate-duration: 5s;
 }
 
@@ -121,7 +121,7 @@ ewan h1, h2, h3, p, ul, li, a {
 :root {
   --animate-duration: 1000ms;
   --animate-delay: 0.9s;
-
+  
 }
 .other  {
 	font-family: Arial;
@@ -326,7 +326,7 @@ ewan h1, h2, h3, p, ul, li, a {
 .buttp{
 	font-family: "Sofia", sans-serif;
 	color: white;
-	font-size:30px;
+	font-size:20px;
 	
 	
 }
