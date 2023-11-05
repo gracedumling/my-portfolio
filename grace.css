@@ -6,7 +6,7 @@ ewan h1, h2, h3, p, ul, li, a {
 
 
 .navbar {
-    background-color: #2E8B57;
+    background-color: transparent;
     color: #fff;
     padding: 10px 0;
 	position:absolute; 
@@ -58,7 +58,7 @@ ewan h1, h2, h3, p, ul, li, a {
     color: #fff;
     font-weight: bold;
     transition: color 0.5s;
-	color: white;
+	color: black;
 	font-size: 15px;
 	font-family: Arial;
 }
@@ -450,4 +450,137 @@ ewan h1, h2, h3, p, ul, li, a {
 	text-font: Arial;
 
 } 
+.resume{
+	
+	
+	background-repeat: no-repeat;
+	background-size: 300px 100px ;
+}
+
+.resume img{
+	
+	border-radius: 25px;
+	
+}
+
+.resumeee{
+	
+		text-align: center;
+		font-size: 40px;
+		font-family: Arial;
+		
+		animation: pulse; 
+	animation-duration: 5s; 
+	animation-iteration-count: infinite;
+}
+
+@keyframes animate__animated.animate__pulse {
+  --animate-duration: 5s;
+}
+
+
+:root {
+  --animate-duration: 1000ms;
+  --animate-delay: 0.9s;
+}
+
+		
+}
+.skillss{
+	
+		text-align: center;
+		font-size: 40px;
+		font-family: Arial;
+		
+}
+
+
+
+.java{
+	
+	position:absolute; 
+	left:50px; 	
+	top: 320%;
+	font-size: 100px;
+}
+.pyhton{
+	
+	position:absolute; 
+	left:455px; 	
+	top: 320%;
+	font-size: 100px;
+	
+}
+
+.html{
+	
+	position:absolute; 
+	left:850px; 	
+	top: 320%;
+	font-size: 100px;
+	
+}
+.css{
+	
+	position:absolute; 
+	left:300px; 	
+	top: 380%;
+	font-size: 100px;
+	
+}
+.script{
+	
+	position:absolute; 
+	left:730px; 	
+	top: 380%;
+	font-size: 100px;
+	
+}
+.javaa{
+	
+	position:absolute; 
+	left:50px; 	
+	top: 210%;
+	font-size: 100px;
+}
+.pyhtonn{
+	
+	position:absolute; 
+	left:455px; 	
+	top: 210%;
+	font-size: 100px;
+	
+}
+
+.htmll{
+	
+	position:absolute; 
+	left:850px; 	
+	top: 210%;
+	font-size: 100px;
+	
+}
+.csss{
+	
+	position:absolute; 
+	left:300px; 	
+	top: 260%;
+	font-size: 100px;
+	
+}
+.scriptt{
+	
+	position:absolute; 
+	left:730px; 	
+	top: 260%;
+	font-size: 100px;
+	
+}
+
+
+
+
+
+
+
 
